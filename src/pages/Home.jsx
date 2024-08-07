@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import AppBar from '@mui/material/AppBar';
+import AppBar from "../components/AppBar/AppBar.jsx";
+//import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
@@ -8,7 +9,7 @@ import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
 
-function Home(){
+/*function Home(){
     function onClick(){
         alert('¡Me hiciste click!');
     }
@@ -27,7 +28,17 @@ function Home(){
     );
     /*<button onClick= {onClick}>
         Hazme click
-    </button>*/
-};
+    </button>
+};*/
+
+function Home() {
+  
+
+  return (
+    <div>
+       <AppBar />
+    </div>
+  );
+}
 
 export default Home;
