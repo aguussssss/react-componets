@@ -1,13 +1,13 @@
 import React from "react";
 import "./AppBar.css"
 
-function AppBar(){
+function AppBar({ toggleSidebar }){
     function onClick(){
         alert('¡Me hiciste click!');
       }
     return (
     <div className="appBarStyle">
-        <div className="menuButtonStyle" onClick={onClick}>
+        <div className="menuButtonStyle" onClick={toggleSidebar}>
             &#9776;
             {/* Icono de menú de hamburguesa */}
         </div> 
