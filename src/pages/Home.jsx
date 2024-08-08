@@ -8,29 +8,6 @@ import MenuIcon from '@mui/icons-material/Menu';
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
-
-/*function Home(){
-    function onClick(){
-        alert('¡Me hiciste click!');
-    }
-
-    return (
-    <AppBar position="static">
-      <Toolbar>
-        <IconButton edge="start" color="inherit" aria-label="menu">
-          <MenuIcon onClick= {onClick}/>
-        </IconButton>
-        <Typography variant="h6">
-          Mi App
-        </Typography>
-      </Toolbar>
-    </AppBar>
-    );
-    /*<button onClick= {onClick}>
-        Hazme click
-    </button>
-};*/
-
 function Home() {
   
 
