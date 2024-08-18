@@ -19,14 +19,19 @@ function App(){
     return (
         <div className="App">
             <AppBar toggleSidebar={toggleSidebar}/>
-            <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
             <Routes>
                 <Route path= "/" element= { <Home/>} />
                 <Route path= "/"/>
                 <Route path= "/"/>
             </Routes>
+            <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
             {isMobile && <TabBar />}
         </div>
+        /*<div className="App">
+            <Routes>
+                <Route path= "/" element= {<Home/>}/>
+            </Routes>
+        </div>*/
     );
 }
 export default App;

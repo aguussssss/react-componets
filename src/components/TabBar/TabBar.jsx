@@ -7,19 +7,19 @@ function TabBar (){
             <nav>
                 <ul>
                     <li>
-                        <a href="#home"><span className="material-icons">home</span> Home </a>
+                        <a href="#home"><span className="material-icons">home</span></a>
                     </li>
                     <li>
-                        <a href="#notifications"><span className="material-icons">notifications</span> Notifications </a>
+                        <a href="#notifications"><span className="material-icons">notifications</span></a>
                     </li>
                     <li>
-                        <a href="#search"><span className="material-icons">search</span> Search </a>
+                        <a href="#search"><span className="material-icons">search</span></a>
                     </li>
                     <li>
-                        <a href="#profile"><span className="material-icons">person</span> Profile </a>
+                        <a href="#profile"><span className="material-icons">person</span></a>
                     </li>
                     <li>
-                        <a href="#about"><span className="material-icons">info</span> About </a>
+                        <a href="#about"><span className="material-icons">info</span></a>
                     </li>
                 </ul>
             </nav>
