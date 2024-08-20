@@ -1,3 +1,25 @@
 .body{
     flex-wrap: wrap;
 }
+
+.searchBox {
+    display: flex;
+    padding-left: 10px;
+    width: 80%;
+}
+
+.recently-seen {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 24px;
+    align-items: center;
+    color: #000;
+}
+
+.btn-more {
+    width: 10%;
+    height: 50px;
+    font-size: 16px;
+    background: gainsboro;
+}

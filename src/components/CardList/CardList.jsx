@@ -61,8 +61,11 @@ function CardList({ data, horizontal}) {
           ))}
         </div>
       </div>
-      <button className="prev-btn" onClick={prevCards}>Prev</button>
-      <button className="next-btn" onClick={nextCards}>Next</button>
+      <div className="btns">
+        <div className="sizeBox"/>
+        <button className="prev-btn" onClick={prevCards}><span className="material-icons">chevron_left</span></button>
+        <button className="next-btn" onClick={nextCards}><span className="material-icons">chevron_right</span></button>
+      </div>
     </div>
   ) : (
     <div className="card-list">

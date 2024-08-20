@@ -8,7 +8,7 @@ function Sidebar({ isOpen, toggleSidebar}){
             <nav>
                 <ul>
                     <li>
-                        <a href="#home"><span className="material-icons">home</span> Home </a></li>
+                        <a href="/"><span className="material-icons">home</span> Home </a></li>
                     <li>
                         <a href="#notifications"><span className="material-icons">notifications</span> Notifications </a></li>
                     <li>
@@ -17,6 +17,8 @@ function Sidebar({ isOpen, toggleSidebar}){
                         <a href="#profile"><span className="material-icons">person</span> Profile </a></li>
                     <li>
                         <a href="#about"><span className="material-icons">info</span> About </a></li>
+                    <li>
+                        <a href="/developer"><span className="material-icons">code</span> Developer zone</a></li>
                 </ul>
             </nav>
         </div>

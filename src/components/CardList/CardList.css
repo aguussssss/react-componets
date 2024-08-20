@@ -82,6 +82,16 @@
     will-change: transform;
 }
 
+.btns {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.sizeBox {
+    width: 100%;
+}
+
 .prev-btn {
     left: 10px; 
   }

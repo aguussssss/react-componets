@@ -76,7 +76,7 @@ function Developer(){
 
   return (
     <div>
-       <h1>Aplicacion</h1>
+       <h1>Developer</h1>
        <Dropdown />
        <h2>Search Example</h2>
        <SearchBox placeHolder={"Search fruits...."} data={sampleData} />
@@ -99,3 +99,5 @@ function Developer(){
     </div>*/
   );
 }
+
+export default Developer;

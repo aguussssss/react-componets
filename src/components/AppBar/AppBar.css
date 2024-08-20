@@ -18,7 +18,29 @@
 }
 
 .titleStyle {
+    width: 200px;
     font-size: 24px;
     font-weight: bold;
     padding: 10px;
+}
+
+.contentRightStyle {
+    width: 200px;
+    display: contents;
+}
+
+.itemRight {
+    width: 1px;
+}
+
+.iconRightStyle {
+    width: 50px;
+    height: 50px;
+    background: gray;
+    border-radius: 50px;
+    align-content: center;
+}
+
+.endBox {
+    width: 1px;
 }

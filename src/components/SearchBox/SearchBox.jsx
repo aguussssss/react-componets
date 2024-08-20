@@ -21,18 +21,27 @@ function SearchBox({ placeHolder, data }){
         setFilteredData([]);
     };
 
+    const searchInput = () => {
+
+    }
+
     return (
         <div className="search">
             <div className="search-input">
+                <button className="search-btn" onClick={searchInput}>
+                    <span className="material-icons">search</span>
+                </button>
                 <input
                     type="text"
                     placeholder={placeHolder}
                     value={query}
                     onChange={handleInputChange}
                 />
+                {query?
                 <button className="clear-btn" onClick={clearInput}>
-                    X
-                </button>
+                    <span className="material-icons">close</span>
+                </button> : null
+                }
             </div>
             {filteredData.length > 0 && (
                 <div className="data-result">
