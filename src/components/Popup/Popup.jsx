@@ -1,5 +1,5 @@
 import React from "react";
-import './Popup.css';
+import './PopUp.css';
 
 function Popup({ isOpen, onClose, children }){
     if(!isOpen) return null;
@@ -9,7 +9,7 @@ function Popup({ isOpen, onClose, children }){
                 <button className="close-button" onClick={onClose}>
                     &times;
                 </button>
-                {children}
+                {(children)}
             </div>
         </div>
     );

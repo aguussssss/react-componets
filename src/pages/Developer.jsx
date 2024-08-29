@@ -6,8 +6,9 @@ import Dropdown from "../components/Dropdown/Dropdown.jsx";
 import SearchBox from "../components/SearchBox/SearchBox.jsx";
 import CardList from "../components/CardList/CardList.jsx";
 import DateTime from "../components/DateTime/DateTime.jsx";
-import Popup from "../components/Popup/Popup.jsx";
+import PopUp from "../components/PopUp/PopUp.jsx";
 import usePopup from "../hooks/usePopup.js";
+import PlayAudioButton from "../components/PlayAudioButton/PlayAudioButton.jsx";
 //import AppBar from '@mui/material/AppBar';
 
 function Developer(){
@@ -86,13 +87,31 @@ function Developer(){
         <h2>Date Time</h2>
         <DateTime />
        </div>
-       <h2>Pop up</h2>
+       <h2>Pop Up</h2>
        <button onClick={openPopup}>Open Popup</button>
-       <Popup isOpen={isPopupOpen} onClose={closePopup}>
-          <h2>Popup title</h2>
-          <p>This is content of popup</p>
-       </Popup>
-       <h1>AAA</h1>
+       <PopUp 
+        isOpen={isPopupOpen} 
+        onClose={closePopup} 
+        children={
+          <div>
+            <h2>PopUp title</h2>
+            <p>This is content of popup</p>
+          </div>
+        }/>
+       <h2>AAA</h2>
+       <h2>Play Audio Example</h2>
+       <PlayAudioButton />
+       <h2>DateTime PopUp</h2>
+       <button onClick={openPopup}>Open DateTime PopUp</button>
+       <PopUp 
+        isOpen={isPopupOpen} 
+        onClose={closePopup} 
+        children={
+          <div>
+            <h2>Popup DateTime</h2>
+            <DateTime />
+          </div>
+        }/>
     </div>
     /*<div>
       <Pra />
