@@ -9,6 +9,9 @@ import DateTime from "../components/DateTime/DateTime.jsx";
 import PopUp from "../components/PopUp/PopUp.jsx";
 import usePopup from "../hooks/usePopup.js";
 import PlayAudioButton from "../components/PlayAudioButton/PlayAudioButton.jsx";
+import BarChart from "../components/BarChart/BarChart.jsx";
+import CircularChart from "../components/CircularChart/CircularChart.jsx";
+import DoughnutChart from "../components/DoughnutChart/DoughnutChart.JSX";
 //import AppBar from '@mui/material/AppBar';
 
 function Developer(){
@@ -112,6 +115,18 @@ function Developer(){
             <DateTime />
           </div>
         }/>
+        <h2>BarChart</h2>
+        <div style={{ width: '600px', margin: '0 auto' }}>
+        <BarChart/>
+        </div>
+        <h2>CircularChart</h2>
+        <div style={{ width: '600px', margin: '0 auto' }}>
+        <CircularChart />
+        </div>
+        <h2>DoughnutChart</h2>
+        <div style={{ width: '600px', margin: '0 auto' }}>
+          <DoughnutChart />
+        </div>
     </div>
     /*<div>
       <Pra />
