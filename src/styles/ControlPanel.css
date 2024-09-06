@@ -1,0 +1,72 @@
+.searchBox{
+    display: flex;
+    padding-left: 10px;
+    width: 80%;
+}
+
+.e-commerce{
+    font-size: 18px;
+    border-radius: 20px;
+    margin: 5px;
+    width: 180px;
+    height: 50px;
+}
+
+.content{
+    padding-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.content-left{
+    width: 260px;
+    background-color: red;
+}
+
+.content-right{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.content-right-sales{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    padding-left: 20px;
+}
+
+.stadistics-text{
+    font-size: 28px;
+    text-align: left;
+}
+
+.content-right-metrics{
+    width: 500px;
+    background-color: transparent;
+}
+
+.bar-chart{
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    border-color: gainsboro;
+    border-style: solid;
+    background-color: transparent;
+}
+
+.doughnut-chart{
+    text-align: left;
+    font-size: 20px;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    border-color: gainsboro;
+    border-style: solid;
+    background-color: transparent;
+}
+
+

@@ -11,7 +11,7 @@ import SearchBox from "../components/SearchBox/SearchBox.jsx";
 import CardList from "../components/CardList/CardList.jsx";
 import ImageList from "../components/ImageList/ImageList.jsx";
 import DateTime from "../components/DateTime/DateTime.jsx";
-import Popup from "../components/Popup/Popup.jsx";
+// ERROR!! import Popup from "../components/Popup/Popup.jsx";
 //import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
@@ -117,6 +117,13 @@ function Home() {
           <SizedBox width={"0%"} />
           <SearchBox data={sampleData}/>
         </div>)}
+        contentRight={(
+          <a href="/control-panel">
+            <button className="control-panel">
+              Panel de control
+            </button>
+          </a>
+        )}
       />
       <div>
         <ImageList data={imageData}/>

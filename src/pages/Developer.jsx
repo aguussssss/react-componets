@@ -11,7 +11,9 @@ import usePopup from "../hooks/usePopup.js";
 import PlayAudioButton from "../components/PlayAudioButton/PlayAudioButton.jsx";
 import BarChart from "../components/BarChart/BarChart.jsx";
 import CircularChart from "../components/CircularChart/CircularChart.jsx";
-import DoughnutChart from "../components/DoughnutChart/DoughnutChart.JSX";
+import DoughnutChart from "../components/DoughnutChart/DoughnutChart.jsx";
+import VideoPlayer from "../components/VideoPlayer/VideoPlayer.jsx"
+import VideoReact from "../components/VideoReact/VideoReact.jsx"
 //import AppBar from '@mui/material/AppBar';
 
 function Developer(){
@@ -127,6 +129,10 @@ function Developer(){
         <div style={{ width: '600px', margin: '0 auto' }}>
           <DoughnutChart />
         </div>
+        <h2>Video Player</h2>
+        <VideoPlayer/>
+        <h2>React Player Video</h2>
+        <VideoReact />
     </div>
     /*<div>
       <Pra />

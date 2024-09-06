@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React, { useState } from 'react';
 import Home from "./pages/Home.jsx";
 import Developer from "./pages/Developer.jsx";
+import ControlPanel from "./pages/ControlPanel.jsx";
 import AppBar from "./components/AppBar/AppBar.jsx";
 import Sidebar from "./components/SideBar/Sidebar.jsx";
 import TabBar from "./components/TabBar/TabBar.jsx";
@@ -14,7 +15,7 @@ function App(){
             <Routes>
                 <Route path= "/" element= {<Home/>} />
                 <Route path= "/developer" element= {<Developer/>} />
-                <Route path= "/"/>
+                <Route path= "/control-panel" element= {<ControlPanel/>}/>
             </Routes>
         </div>
         /*<div className="App">
