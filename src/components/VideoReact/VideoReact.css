@@ -1,25 +1,12 @@
-.video-container {
-    position: relative;
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-.video {
-    width: 100%;
-    border: 2px solid #ccc;
-    border-radius: 8px;
-}
-  
 .controls {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
     margin-top: 10px;
 }
   
 .button {
-    padding: 10px;
+    margin: 0 10px;
+    padding: 10px 20px;
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -33,4 +20,5 @@
   
 input[type="range"] {
     width: 150px;
+    margin-left: 10px;
 }
