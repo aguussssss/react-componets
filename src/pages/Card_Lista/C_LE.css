@@ -1,0 +1,56 @@
+ul,
+li {
+  list-style: none;
+  white-space: nowrap;
+}
+
+li {
+  display: inline;
+}
+
+img {
+  margin-top: -16px;
+}
+
+/* Main container */
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 80,
+  'wght' 400,
+  'GRAD' 30,
+  'opsz' 24,
+}
+
+.main-c {
+  width: 1000px;
+  height: 300px;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+/* Slider container */
+.slider-c {
+  position: relative;
+  height: 100%;
+  width: 1000px;
+  display:flex; 
+  column-gap: 20px;
+  overflow: hidden;
+}
+
+.container-i {
+  margin-bottom: 35px;
+  width: 200;
+  height: 280;
+  border-radius: 20px;
+  border: 1px solid #eee;
+  overflow: hidden; 
+}
+
+div.active {
+  background: #ccc;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}

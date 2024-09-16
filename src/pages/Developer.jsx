@@ -16,6 +16,7 @@ import VideoPlayer from "../components/VideoPlayer/VideoPlayer.jsx";
 import VideoReact from "../components/VideoReact/VideoReact.jsx";
 import LoginForm from "../components/LoginForm/LoginForm.jsx";
 import ChatSocket from "../components/ChatSocket/ChatSocket.jsx";
+import GoogleLoginButton from "../components/GoogleLoginButton/GoogleLoginButton.jsx";
 //import AppBar from '@mui/material/AppBar';
 
 function Developer(){
@@ -137,8 +138,10 @@ function Developer(){
         <VideoReact />
         <h2>Login Form</h2>
         <LoginForm/>
-        <h2>Chat</h2>
-        <ChatSocket/>
+        {/*<h2>Chat</h2>
+        <ChatSocket/>*/}
+        <h2>Inicio de sesion</h2>
+        <GoogleLoginButton/>
     </div>
     /*<div>
       <Pra />
