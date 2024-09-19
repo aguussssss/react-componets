@@ -8,6 +8,7 @@ import Sidebar from "./components/SideBar/Sidebar.jsx";
 import TabBar from "./components/TabBar/TabBar.jsx";
 import "./App.css";
 import SearchBox from "./components/SearchBox/SearchBox.jsx";
+import Login from "./pages/Login.jsx";
 
 function App(){
     return (
@@ -16,6 +17,7 @@ function App(){
                 <Route path= "/" element= {<Home/>} />
                 <Route path= "/developer" element= {<Developer/>} />
                 <Route path= "/control-panel" element= {<ControlPanel/>}/>
+                <Route path= "/login" element= {<Login/>}/>
             </Routes>
         </div>
         /*<div className="App">

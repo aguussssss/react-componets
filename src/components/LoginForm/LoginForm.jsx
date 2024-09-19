@@ -27,11 +27,10 @@ function LoginForm() {
 
   return (
     <div className="login-container">
-      <h2 className="login-label">Iniciar Sesión</h2>
       <form onSubmit={handleSubmit} className="login-form">
         {/* Correo Electrónico */}
-        <label className="credentials-label" htmlFor="email">Correo Electrónico:</label>
         <input
+          htmlFor="email"
           className="credentials-input"
           placeholder="Correo electronico"
           type="email"
@@ -42,8 +41,8 @@ function LoginForm() {
         />
 
         {/* Contraseña */}
-        <label className="credentials-label" htmlFor="password">Contraseña:</label>
         <input
+          htmlFor="password"
           className="credentials-input"
           placeholder="Password"
           type="password"
@@ -53,11 +52,16 @@ function LoginForm() {
           required
         />
 
+        <div className='forget-password'>
+          ¿Olvidaste tu contraseña?
+          <div className='reset-password'>Recuperar</div>
+        </div>
+
         {/* Mensaje de Error */}
         {error && <p className="error">{error}</p>}
 
         {/* Botón de Enviar */}
-        <button className="accept-button" type="submit">Iniciar Sesión</button>
+        <button className="accept-button" type="submit">Acceso</button>
       </form>
     </div>
   );

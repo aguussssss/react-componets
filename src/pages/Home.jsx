@@ -124,6 +124,11 @@ function Home() {
             </button>
           </a>
         )}
+        iconRight={(
+          <a href="/Login">
+            <span className="material-icons">person</span>
+          </a>
+        )}
       />
       <div>
         <ImageList data={imageData}/>

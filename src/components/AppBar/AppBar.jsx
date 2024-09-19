@@ -1,7 +1,7 @@
 import React from "react";
 import "./AppBar.css"
 
-function AppBar({ toggleSidebar, content, contentRight }){
+function AppBar({ toggleSidebar, content, contentRight, iconRight }){
     function onClick(){
         alert('¡Me hiciste click!');
       }
@@ -15,7 +15,7 @@ function AppBar({ toggleSidebar, content, contentRight }){
       <div className="contentRightStyle">
         {contentRight? contentRight : (<div className="itemRight"></div>)}
         <div className="iconRightStyle">
-          <span className="material-icons">person</span>
+          { iconRight? iconRight : (<span className="material-icons">person</span>)}
         </div>
       </div>
       <div className="endBox"></div>

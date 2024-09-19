@@ -1,0 +1,24 @@
+.icon-app {
+    display: flex;
+    align-self: self-start;
+}
+
+.login-body {
+    width: 100%;
+    max-width: 400px;
+    align-self: center;
+}
+
+.separators {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: space-evenly;
+}
+
+.sized-box {
+    height: 5px;
+    width: 45%;
+    background-color: gainsboro;
+}
