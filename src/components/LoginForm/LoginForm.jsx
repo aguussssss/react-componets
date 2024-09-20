@@ -52,9 +52,14 @@ function LoginForm() {
           required
         />
 
-        <div className='forget-password'>
+        <div className='credential'>
           ¿Olvidaste tu contraseña?
-          <div className='reset-password'>Recuperar</div>
+          <div className='green-credential'>Recuperar</div>
+        </div>
+
+        <div className='credential'>
+          ¿No tienes cuenta?
+          <div className='green-credential'>Crear cuenta</div>
         </div>
 
         {/* Mensaje de Error */}

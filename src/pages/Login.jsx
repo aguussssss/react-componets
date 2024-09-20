@@ -19,9 +19,16 @@ function Login (){
                         <div className='sized-box'/>
                         o
                         <div className='sized-box'/>
-                </div>
+                    </div>
                 <GoogleLoginButton/>
+                <div className='divider'/>
                 <FacebookLoginButton/>
+                <div className='divider'/>
+                <div className='legal-info'>
+                    <div className='terms-and-politics'>Terminos de uso</div>
+                    <div className='divider-vertical'/>
+                    <div className='terms-and-politics'>Politica de privacidad</div>
+                </div>
             </div>
         </center>
     </div>

@@ -6,11 +6,21 @@ function GoogleLoginButton() {
   const [userProfile, setUserProfile] = useState({ name: '', email: '' });
 
   const googleLoginStyle = {
-    textAling: 'center',
+    display: 'flex',
+    width: '100%',
+    height: '50px',
+    //justifyContent: 'center',
+  }
+
+  const labelGoogle = {
+    width: '100%',
+    paddingRight: '15px',
+    alignSelf: 'center',
   }
   
   const iconStyle = {
     paddingRight : '10px',
+    alignSelf: 'center',
   }
 
   const handleSuccess = (credentialResponse) => {
@@ -31,8 +41,8 @@ function GoogleLoginButton() {
 
   return (
     <button onClick={() => login()} style={googleLoginStyle}>
-      <img src='src\components\GoogleLoginButton\google.png' width='35px' height='30px' style={iconStyle}/>
-      Acceder con Google
+      <img src='src\components\GoogleLoginButton\google.webp' width='20px' height='20px' style={iconStyle}/>
+      <div style={labelGoogle}>Acceder con Google</div>
     </button>
   );
 }
